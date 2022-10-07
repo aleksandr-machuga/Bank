@@ -1,0 +1,42 @@
+package by.itAcademy.machuga.bank.interfaces;
+
+public interface Constants {
+    int MAX_TRANSACTION_AMOUNT = 100000000;
+    int MAX_BALANCE = 2000000000;
+    String WELCOME_TO_OUR_APPLICATION_MESSAGE = "Welcome to our application.";
+    String THANKS_FOR_USING_THE_PROGRAM_MESSAGE = "Thanks for using the program!";
+    String WRONG_ACTION_PLEASE_TRY_AGAIN_MESSAGE = "Wrong action. Please try again.";
+    String PLEASE_CHOOSE_THE_ACTION_MESSAGE = "\nPlease choose the action.";
+    String REGISTER_CHOICE = "1";
+    String ACCOUNT_CHOICE = "2";
+    String REPLENISHMENT_CHOICE = "3";
+    String WITHDRAW_CHOICE = "4";
+    String EXIT_CHOICE = "5";
+    String REGISTER_NEW_USER_MESSAGE = "1 - Register new user.";
+    String CREATE_NEW_ACCOUNT_MESSAGE = "2 - Create new account.";
+    String REPLENISH_THE_ACCOUNT_MESSAGE = "3 - Replenish the account";
+    String WITHDRAW_FROM_THE_ACCOUNT_MESSAGE = "4 - Withdraw from the account.";
+    String EXIT_MESSAGE = "5 - Exit.";
+    String ENTER_YOUR_NAME_MESSAGE = "Enter Your name.";
+    String ENTER_CURRENCY_MESSAGE = "Enter currency.";
+    String ACCOUNT_CREATED_MESSAGE = "Account '%s' in currency '%s' created.%n";
+    String ACCOUNT_ALREADY_EXISTS_MESSAGE = "Account for name '%s' and currency '%s' already exists.%n";
+    String ACCOUNT_NOT_EXISTS_MESSAGE = "Account for name '%s' and currency '%s' doesn't exist. Create account first.%n";
+    String OOPS_SOMETHING_WENT_WRONG_MESSAGE = "Oops, something went wrong.";
+    String USER_HASN_T_BEEN_CREATED_MESSAGE = "User hasn't been created.";
+    String USER_DOESNT_EXIST_MESSAGE = "Such user doesn't exist. Register new user.";
+    String ENTER_NAME_MESSAGE = "Enter Your name.";
+    String ENTER_ADDRESS_MESSAGE = "Enter Your address or 'no' to skip.";
+    String NO_MESSAGE = "no";
+    String USER_CREATED_MESSAGE = "User '%s' created.%n";
+    String USER_WITH_NAME_ALREADY_EXISTS_MESSAGE = "User with name '%s' already exists.%n";
+    String ENTER_AMOUNT_MESSAGE = "Enter amount.";
+    String ACCOUNT_REPLENISHED_MESSAGE = "Account has been replenished.";
+    String ACCOUNT_HASN_T_BEEN_REPLENISHED_MESSAGE = "Account hasn't been replenished.";
+    String AMOUNT_HASN_T_BEEN_WITHDRAWN_MESSAGE = "Amount hasn't been withdrawn.";
+    String AMOUNT_WITHDRAWN_MESSAGE = "Amount has been withdrawn.";
+    String AMOUNT_EXCEEDS_MESSAGE = "Amount exceeds maximum allowed value '" + MAX_TRANSACTION_AMOUNT + "'.";
+    String BALANCE_EXCEEDS_MESSAGE = "Potential balance will exceed maximum value";
+    String INSUFFICIENT_BALANCE_MESSAGE = "Insufficient balance.";
+    String CURRENT_BALANCE_MESSAGE = "Current balance %d%n";
+}
